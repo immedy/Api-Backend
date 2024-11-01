@@ -24,6 +24,6 @@ Route::controller(AuthController::class)->group(function(){
     Route::post('login','login');
 });
 
-Route::controller(ResponTimeController::class)->group(function(){
-    Route::get('getUser','getUser');
-});
+// Route::controller(ResponTimeController::class)->group(function(){
+//     Route::get('getUser','getUser');
+// });

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Authentication\AuthController;
+use App\Http\Controllers\Authentication\AuthMobileController;
 use App\Http\Controllers\ResponTime\ResponTimeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -23,7 +24,3 @@ use Illuminate\Support\Facades\Route;
 Route::controller(AuthController::class)->group(function(){
     Route::post('login','login');
 });
-
-// Route::controller(ResponTimeController::class)->group(function(){
-//     Route::get('getUser','getUser');
-// });

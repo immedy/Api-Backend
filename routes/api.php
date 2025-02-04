@@ -3,6 +3,7 @@
 use App\Http\Controllers\Authentication\AuthController;
 use App\Http\Controllers\Authentication\AuthMobileController;
 use App\Http\Controllers\ResponTime\ResponTimeController;
+use App\Http\Controllers\simpeg\PegawaiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -23,4 +24,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(AuthController::class)->group(function(){
     Route::post('login','login');
+});
+
+Route::controller(PegawaiController::class)->group(function(){
+    Route::get('getpegawai','getpegawai');
 });

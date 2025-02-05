@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\simpeg;
+namespace App\Http\Controllers\Api\Simpeg;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

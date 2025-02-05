@@ -1,9 +1,9 @@
 <?php
 
+use App\Http\Controllers\Api\Simpeg\PegawaiController;
 use App\Http\Controllers\Authentication\AuthController;
 use App\Http\Controllers\Authentication\AuthMobileController;
 use App\Http\Controllers\ResponTime\ResponTimeController;
-use App\Http\Controllers\simpeg\PegawaiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
